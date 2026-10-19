@@ -1,0 +1,56 @@
+{
+  "best_model": "Gradient Boosting",
+  "comparison": {
+    "Logistic Regression": {
+      "Accuracy": 0.9283,
+      "Precision": 0.8352,
+      "Recall": 0.913,
+      "F1_Score": 0.8724,
+      "ROC_AUC": 0.983,
+      "Confusion_Matrix": [
+        [
+          410,
+          29
+        ],
+        [
+          14,
+          147
+        ]
+      ]
+    },
+    "Random Forest": {
+      "Accuracy": 0.9267,
+      "Precision": 0.8421,
+      "Recall": 0.8944,
+      "F1_Score": 0.8675,
+      "ROC_AUC": 0.9813,
+      "Confusion_Matrix": [
+        [
+          412,
+          27
+        ],
+        [
+          17,
+          144
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "Accuracy": 0.9367,
+      "Precision": 0.902,
+      "Recall": 0.8571,
+      "F1_Score": 0.879,
+      "ROC_AUC": 0.984,
+      "Confusion_Matrix": [
+        [
+          424,
+          15
+        ],
+        [
+          23,
+          138
+        ]
+      ]
+    }
+  }
+}
